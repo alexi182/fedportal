@@ -1,0 +1,237 @@
+@font-face {
+    font-family: "RobotoCondensed";
+    src: url("../fonts/RobotoCondensedRegular/RobotoCondensedRegular.eot");
+    src: url("../fonts/RobotoCondensedRegular/RobotoCondensedRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/RobotoCondensedRegular/RobotoCondensedRegular.woff") format("woff"),
+    url("../fonts/RobotoCondensedRegular/RobotoCondensedRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "RobotoRegular";
+    src: url("../fonts/RobotoRegular/RobotoRegular.eot");
+    src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"),
+    url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+.navbar {
+    background: #ffffff;
+}
+
+.navbar .nav > li > a {
+    text-shadow: none;
+    padding: 12px 15px;
+    border-radius: 0;
+    border-right: none;
+    color: #000000;
+    font-family: "RobotoCondensed";
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: none;
+}
+
+#navLogin {
+    border: 3px solid #cccccc;
+    background: transparent;
+    color: #999999;
+    font-family: "RobotoCondensed";
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: none;
+    transition: 0.3s;
+}
+
+#navLogin:hover {
+    border-color: #ffffff;
+    color: #ffffff;
+}
+/*/////////////HEADER////////*/
+
+#mastheader {
+    font-family: "RobotoCondensed";
+    background: url("../img/main-bg.png") no-repeat;
+    background-size: cover;
+}
+
+.page-header-new {
+    background: none!important;
+}
+
+.site-slogan {
+    padding-left: 0!important;
+}
+
+.site-slogan>.col-md-2 {
+    padding-left: 0;
+}
+
+.site-slogan img {
+    display: inline-block;
+}
+
+.site-slogan h1 {
+    display: inline-block;
+}
+
+.site-slogan a {
+    font-family: "RobotoCondensed";
+    color: #ffffff;
+    font-size: 44px;
+    font-weight: 400;
+    font-style: normal!important;
+}
+
+.header-phone {
+    color: #9baee9;
+    font-size: 36px;
+    font-weight: 400;
+    clear: both;
+    padding-left: 12.5%;
+}
+
+.header-text {
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.header-text p {
+    font-size: 36px;
+}
+
+.row.bottom-head {
+    margin-top: 40px;
+}
+
+
+/*/////////////NEWS-CONTENT////////*/
+
+.news-block {
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.news-block-item {
+    position: relative;
+    box-shadow: 0 0 5px rgba(2, 2, 2, 0.21);
+    background-color: #ffffff;
+    width: 304px;
+    height: 412px;
+    margin-bottom: 20px;
+}
+
+.news-info {
+    padding: 15px 15px 5px;
+}
+
+.news-info-item {
+    position: absolute;
+    bottom: 3%;
+}
+
+.news-head {
+    font-family: RobotoRegular;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.news-head a {
+    color: #000000;
+    display: block;
+}
+
+.news-date {
+    margin-bottom: 10px;
+    color: #999999;
+    font-family: RobotoRegular;
+    font-size: 18px;
+}
+
+/*/////////////FOOTER////////*/
+
+#mastfooter {
+    background: #454955;
+    padding: 50px 0 85px;
+    font-family: "RobotoCondensed";
+}
+
+.footer-left-col {
+    text-align: left;
+    font-size: 16px;
+    color: #b8bcc9;
+}
+
+.footer-right-col {
+    text-align: right;
+}
+
+.footer-phone {
+    display: inline-block;
+    margin-right: 20px;
+    font-family: "RobotoCondensed";
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footer-phone:last-of-type {
+    margin-right: 0;
+}
+
+.footer-logos {
+    margin-top: 30px;
+}
+
+.footer-logos img{
+    display: inline-block;
+    margin-right: 64px;
+}
+
+.footer-logos img:last-of-type{
+    margin-right: 0;
+}
+
+.footer-social-block {
+    margin-top: 35px;
+    padding-right: 145px;
+}
+
+.footer-social-block a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-social-block a:last-of-type {
+    margin-right: 0;
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (max-width: 990px) {
+    .footer-right-col, .footer-left-col{
+        text-align: center;
+    }
+    .footer-right-col {
+        margin-top: 20px;
+    }
+    .footer-social-block {
+        padding-right: 0;
+    }
+}
+
+
+@media (max-width: 768px) {
+    #mastfooter {
+        padding: 10px 0 20px;
+    }
+
+
+}
+
