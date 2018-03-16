@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5fe4cc0-564a-42d8-958c-6346625232b0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change beforePath="$PROJECT_DIR$/css/new-styles.css" afterPath="$PROJECT_DIR$/css/new-styles.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -56,8 +56,8 @@
           <file leaf-file-name="new-styles.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/new-styles.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="567">
-                  <caret line="122" column="18" lean-forward="true" selection-start-line="122" selection-start-column="18" selection-end-line="122" selection-end-column="18" />
+                <state relative-caret-position="273">
+                  <caret line="108" column="0" lean-forward="true" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -95,8 +95,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css/new-styles.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/new-styles.css" />
       </list>
     </option>
   </component>
@@ -107,7 +107,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -201,10 +201,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16620000" />
+    <option name="totallyTimeSpent" value="16767000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -332,8 +332,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/new-styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="122" column="18" lean-forward="true" selection-start-line="122" selection-start-column="18" selection-end-line="122" selection-end-column="18" />
+        <state relative-caret-position="273">
+          <caret line="108" column="0" lean-forward="true" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -107,6 +107,7 @@
 }
 
 
+
 /*/////////////NEWS-CONTENT////////*/
 
 .news-block {
@@ -114,6 +115,7 @@
     flex-wrap: wrap;
    justify-content: space-between;
 }
+
 
 .news-block-item {
     position: relative;
