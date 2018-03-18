@@ -1,215 +1,280 @@
 @font-face {
-    font-family: "RobotoCondensed";
-    src: url("../fonts/RobotoCondensedRegular/RobotoCondensedRegular.eot");
-    src: url("../fonts/RobotoCondensedRegular/RobotoCondensedRegular.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/RobotoCondensedRegular/RobotoCondensedRegular.woff") format("woff"),
-    url("../fonts/RobotoCondensedRegular/RobotoCondensedRegular.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
+   font-family: "RobotoCondensed";
+   src: url("../fonts/RobotoCondensedRegular/RobotoCondensedRegular.eot");
+   src: url("../fonts/RobotoCondensedRegular/RobotoCondensedRegular.eot?#iefix")format("embedded-opentype"),
+   url("../fonts/RobotoCondensedRegular/RobotoCondensedRegular.woff") format("woff"),
+   url("../fonts/RobotoCondensedRegular/RobotoCondensedRegular.ttf") format("truetype");
+   font-style: normal;
+   font-weight: normal;
 }
 
 @font-face {
-    font-family: "RobotoRegular";
-    src: url("../fonts/RobotoRegular/RobotoRegular.eot");
-    src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"),
-    url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
+   font-family: "RobotoRegular";
+   src: url("../fonts/RobotoRegular/RobotoRegular.eot");
+   src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix")format("embedded-opentype"),
+   url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"),
+   url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype");
+   font-style: normal;
+   font-weight: normal;
+}
+
+body {
+   background: #ffffff;
 }
 
 .navbar {
-    background: #ffffff;
+   background: #ffffff;
+   position: relative;
 }
 
 .navbar .nav > li > a {
-    text-shadow: none;
-    padding: 12px 15px;
-    border-radius: 0;
-    border-right: none;
-    color: #000000;
-    font-family: "RobotoCondensed";
-    font-size: 16px;
-    font-weight: 400;
-    text-transform: none;
+   text-shadow: none;
+   padding: 15px 15px 15px;
+   border-radius: 0;
+   border-right: none;
+   color: #000000;
+   font-family: "RobotoCondensed";
+   font-size: 16px;
+   font-weight: 400;
+   text-transform: none;
+   transition: 0.3s;
+}
+
+.navbar .nav > li > a:hover {
+   background: #e8eaf7;
 }
 
 #navLogin {
-    border: 3px solid #cccccc;
-    background: transparent;
-    color: #999999;
-    font-family: "RobotoCondensed";
-    font-size: 16px;
-    font-weight: 400;
-    text-transform: none;
-    transition: 0.3s;
+   border: 3px solid #cccccc;
+   background: transparent;
+   color: #999999;
+   font-family: "RobotoCondensed";
+   font-size: 16px;
+   font-weight: 400;
+   text-transform: none;
+   transition: 0.3s;
+   margin-top: 6px;
+   margin-bottom: 6px;
 }
 
 #navLogin:hover {
-    border-color: #ffffff;
-    color: #ffffff;
+   border-color: grey;
+   color: grey;
+   background-color: #ffffff;
 }
+
+.navbar .nav > li:first-child > a {
+   border-left: none;
+}
+
+.main-menu.nav.navbar-nav .dropdown li{
+   display: inline-block;
+}
+
+.main-menu.nav.navbar-nav li {
+   position: static;
+}
+
+.navbar .nav .dropdown-menu {
+   width: 100%;
+   background-color: #e8eaf7;
+   text-align: center;
+   font-family: "RobotoCondensed";
+   font-size: 16px;
+}
+
+.navbar .nav .dropdown-menu.sections ul{
+    background-color: #e8eaf7;
+}
+
+.navbar .nav .dropdown-menu.sections ul a{
+   color: #000000;
+}
+
+/*.dropdown-menu {*/
+   /*display: block!important;*/
+/*}*/
+/*
+
+.navbar-default .nabvar-nav > .open > a:hover {
+   background-color: red!important;
+}
+*/
+
 /*/////////////HEADER////////*/
 
 #mastheader {
-    font-family: "RobotoCondensed";
-    background: url("../img/main-bg.png") no-repeat;
-    background-size: cover;
+   font-family: "RobotoCondensed";
+   background: url("../img/main-bg.png") no-repeat;
+   background-size: cover;
 }
 
 .page-header-new {
-    background: none!important;
+   background: none!important;
 }
 
-.site-slogan {
-    padding-left: 0!important;
+.slogan {
+   padding-left: 0!important;
 }
 
-.site-slogan>.col-md-2 {
-    padding-left: 0;
+.slogan>.col-md-2 {
+   padding-left: 0;
 }
 
-.site-slogan img {
-    display: inline-block;
+.slogan img {
+   display: inline-block;
 }
 
-.site-slogan h1 {
-    display: inline-block;
+.slogan h1 {
+   display: inline-block;
+   line-height: 1.1;
+   margin-top: 0;
 }
 
-.site-slogan a {
-    font-family: "RobotoCondensed";
-    color: #ffffff;
-    font-size: 44px;
-    font-weight: 400;
-    font-style: normal!important;
+.slogan a {
+   font-family: "RobotoCondensed";
+   color: #ffffff;
+   font-size: 44px;
+   font-weight: 400;
+   font-style: normal!important;
 }
 
 .header-phone {
-    color: #9baee9;
-    font-size: 36px;
-    font-weight: 400;
-    clear: both;
-    padding-left: 12.5%;
+   color: #9baee9!important;
+   font-size: 36px;
+   font-weight: 400;
+   clear: both;
+   padding-left: 12.5%;
 }
 
 .header-text {
-    font-size: 24px;
-    color: #ffffff;
+   font-size: 24px;
+   color: #ffffff;
+   line-height: 1.4;
+   height: 250px;
 }
 
 .header-text p {
-    font-size: 36px;
+   font-size: 36px;
+   line-height: 1;
 }
 
 .row.bottom-head {
-    margin-top: 40px;
+   margin-top: 40px;
 }
 
+.carousel.slide {
+   position: relative;
+}
 
+.carousel-indicators {
+   position: absolute;
+   left: 4%;
+
+}
 
 /*/////////////NEWS-CONTENT////////*/
 
 .news-block {
-    display: flex;
-    flex-wrap: wrap;
+   display: flex;
+   flex-wrap: wrap;
    justify-content: space-between;
 }
 
 
 .news-block-item {
-    position: relative;
-    box-shadow: 0 0 5px rgba(2, 2, 2, 0.21);
-    background-color: #ffffff;
-    width: 304px;
-    height: 412px;
-    margin-bottom: 20px;
+   position: relative;
+   box-shadow: 0 0 5px rgba(2, 2, 2, 0.21);
+   background-color: #ffffff;
+   width: 304px;
+   height: 412px;
+   margin-bottom: 20px;
 }
 
 .news-info {
-    padding: 15px 15px 5px;
+   padding: 15px 15px 5px;
 }
 
 .news-info-item {
-    position: absolute;
-    bottom: 3%;
+   position: absolute;
+   bottom: 3%;
 }
 
 .news-head {
-    font-family: RobotoRegular;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.2;
-    text-align: left;
+   font-family: RobotoRegular;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 1.2;
+   text-align: left;
 }
 
 .news-head a {
-    color: #000000;
-    display: block;
+   color: #000000;
+   display: block;
 }
 
 .news-date {
-    margin-bottom: 10px;
-    color: #999999;
-    font-family: RobotoRegular;
-    font-size: 18px;
+   margin-bottom: 10px;
+   color: #999999;
+   font-family: RobotoRegular;
+   font-size: 18px;
 }
 
 /*/////////////FOOTER////////*/
 
 #mastfooter {
-    background: #454955;
-    padding: 50px 0 85px;
-    font-family: "RobotoCondensed";
+   background: #454955;
+   padding: 50px 0 85px;
+   font-family: "RobotoCondensed";
 }
 
 .footer-left-col {
-    text-align: left;
-    font-size: 16px;
-    color: #b8bcc9;
+   text-align: left;
+   font-size: 16px;
+   color: #b8bcc9;
 }
 
 .footer-right-col {
-    text-align: right;
+   text-align: right;
 }
 
 .footer-phone {
-    display: inline-block;
-    margin-right: 20px;
-    font-family: "RobotoCondensed";
-    font-size: 18px;
-    font-weight: 400;
+   display: inline-block;
+   margin-right: 20px;
+   font-family: "RobotoCondensed";
+   font-size: 18px;
+   font-weight: 400;
 }
 
 .footer-phone:last-of-type {
-    margin-right: 0;
+   margin-right: 0;
 }
 
 .footer-logos {
-    margin-top: 30px;
+   margin-top: 30px;
 }
 
 .footer-logos img{
-    display: inline-block;
-    margin-right: 64px;
+   display: inline-block;
+   margin-right: 64px;
 }
 
 .footer-logos img:last-of-type{
-    margin-right: 0;
+   margin-right: 0;
 }
 
 .footer-social-block {
-    margin-top: 35px;
-    padding-right: 145px;
+   margin-top: 35px;
+   padding-right: 145px;
 }
 
 .footer-social-block a {
-    display: inline-block;
-    margin-right: 10px;
+   display: inline-block;
+   margin-right: 10px;
 }
 
 .footer-social-block a:last-of-type {
-    margin-right: 0;
+   margin-right: 0;
 }
 
 @media (min-width: 768px) {
@@ -217,22 +282,22 @@
 }
 
 @media (max-width: 990px) {
-    .footer-right-col, .footer-left-col{
-        text-align: center;
-    }
-    .footer-right-col {
-        margin-top: 20px;
-    }
-    .footer-social-block {
-        padding-right: 0;
-    }
+   .footer-right-col, .footer-left-col{
+      text-align: center;
+   }
+   .footer-right-col {
+      margin-top: 20px;
+   }
+   .footer-social-block {
+      padding-right: 0;
+   }
 }
 
 
 @media (max-width: 768px) {
-    #mastfooter {
-        padding: 10px 0 20px;
-    }
+   #mastfooter {
+      padding: 10px 0 20px;
+   }
 
 
 }
