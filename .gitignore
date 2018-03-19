@@ -1,0 +1,14 @@
+web/bundles/
+web/images/
+web/files/
+app/bootstrap.php.cache
+app/config/parameters.yml
+app/cache/*
+app/logs/*
+app/sessions/*
+build/
+vendor
+bin
+nbproject/
+.idea
+Capfile
