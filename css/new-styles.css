@@ -186,12 +186,39 @@ body {
 
 /*/////////////NEWS-CONTENT////////*/
 
+.news-row {
+   margin-bottom: 20px;
+}
+
+.all-news {
+   float: right;
+   border: 3px solid #a1ceee;
+   background-color: #ffffff;
+   padding: 4px 6px;
+   transition: 0.3s;
+}
+
+.all-news:hover {
+   border-color: #00aced;
+}
+
+.all-news:hover span {
+   color: #00aced;
+}
+
+.all-news span {
+   color: #a1ceee;
+   font-family: "RobotoCondensed";
+   font-size: 16px;
+   font-weight: 400;
+   transition: 0.3s;
+}
+
 .news-block {
    display: flex;
    flex-wrap: wrap;
    justify-content: space-between;
 }
-
 
 .news-block-item {
    position: relative;
@@ -212,7 +239,7 @@ body {
 }
 
 .news-head {
-   font-family: RobotoRegular;
+   font-family: "RobotoRegular";
    font-size: 18px;
    font-weight: 400;
    line-height: 1.2;
@@ -222,13 +249,32 @@ body {
 .news-head a {
    color: #000000;
    display: block;
+   height: 130px;
+   overflow: hidden;
+}
+
+.news-head a:hover {
+   text-decoration: underline;
 }
 
 .news-date {
    margin-bottom: 10px;
    color: #999999;
-   font-family: RobotoRegular;
+   font-family: "RobotoRegular";
    font-size: 18px;
+}
+
+.news-social {
+   display: flex;
+}
+
+.news-social > a {
+   display: inline-block;
+   margin-right: 10px;
+}
+
+.news-social > a:last-of-type {
+   margin-right: 0;
 }
 
 /*/////////////advantages////////*/
