@@ -139,6 +139,10 @@ body {
    font-style: normal!important;
 }
 
+.slogan-black {
+   color: #000000!important;
+}
+
 .header-phone {
    color: #9baee9!important;
    font-size: 36px;
@@ -170,7 +174,10 @@ body {
 .carousel-indicators {
    position: absolute;
    left: 4%;
+}
 
+.bg-none {
+   background: none;
 }
 
 /*/////////////NEWS-CONTENT////////*/
@@ -219,6 +226,226 @@ body {
    font-family: RobotoRegular;
    font-size: 18px;
 }
+
+/*/////////////advantages////////*/
+
+.advantages-block {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   font-family: "RobotoCondensed";
+}
+
+.advantages-block__item {
+   text-align: center;
+   width: 220px;
+}
+
+.advantages-block__item:nth-of-type(1) span {
+   color: #7627ad;
+}
+
+.advantages-block__item:nth-of-type(2) span {
+   color: #a70e2f;
+}
+
+.advantages-block__item:nth-of-type(3) span {
+   color: #233a86;
+}
+
+.advantages-block__item:nth-of-type(4) span {
+   color: #267951;
+}
+.advantages-block__item:nth-of-type(5) span {
+   color: #000000;
+}
+
+
+.advantages-block__item span {
+   color: #7627ad;
+   font-size: 65px;
+}
+
+.advantages-block__item p {
+   color: #000000;
+   font-size: 24px;
+   line-height: 1;
+}
+
+/*/////////////SEARCH////////*/
+
+.search-block {
+   margin: 50px 0 70px;
+}
+
+.search-block form {
+   display: flex;
+}
+
+.search-line {
+   border-radius: 10px!important;
+   border: 2px solid #b3bddb!important;
+   padding: 7px 10px!important;
+   height: auto!important;
+   font-size: 17px!important;
+}
+
+.search-submit-btn {
+   width: 66px;
+   height: 57px;
+   border-radius: 10px;
+   background: #233a86 url("../img/search.png") no-repeat center;
+   outline: none;
+   margin-left: 20px;
+   border: 0!important;
+   transition: 0.3s;
+}
+
+.search-submit-btn:hover {
+
+}
+
+.ask-main-wrapper {
+   font-family: "RobotoCondensed";
+}
+
+.ask-main-wrapper__inner {
+   max-width: 940px;
+   height: 305px;
+   margin: 0 auto 25px;
+   background: url("../img/woman.png") no-repeat right top;
+}
+
+.ask-wrapper {
+   max-width: 516px;
+   box-shadow: 0 0 5px rgba(2, 2, 2, 0.21);
+   border: 1px solid #cccccc;
+   text-align: center;
+   padding: 20px 0;
+   background: #ffffff;
+   position: relative;
+   top: 19px;
+}
+
+.ask-area {
+   width: 459px;
+   height: 163px;
+   border-radius: 10px;
+   border: 1px solid #cccccc;
+   background-color: #ffffff;
+   margin: 0 auto;
+   resize: none;
+   font-size: 16px;
+   font-family: "RobotoRegular";
+}
+
+.ask-btn {
+   width: 153px;
+   height: 46px;
+   border-radius: 10px;
+   background: #233a86 url("../img/ask.png")no-repeat 107px 8px;
+   color: #ffffff;
+   border: 0!important;
+   font-size: 17px;
+   font-weight: 400;
+   text-transform: uppercase;
+   text-align: left;
+   margin-top: 15px;
+}
+
+.ask-btn span {
+   position: relative;
+   left: 14px;
+}
+
+.ask-row {
+   display: flex;
+   justify-content: space-around;
+   padding: 20px 0;
+   align-items: center;
+}
+
+.ask-row__person-wrapper {
+   display: flex;
+   align-items: center;
+}
+
+.ask-row__person {
+   font-family: "RobotoRegular";
+   margin-left: 10px;
+}
+
+.ask-row__person-name {
+   color: #000000;
+   font-size: 18px;
+   font-weight: 300;
+}
+
+.ask-row__person-date {
+   color: #656656;
+   font-size: 16px;
+}
+
+.ask-row__question {
+   font-family: "RobotoRegular";
+   color: #000000;
+}
+
+.ask-row__question-answers:after {
+   content: "";
+   width: 28px;
+   height: 20px;
+   display: inline-block;
+   vertical-align: middle;
+   background: url("../img/comment.png") no-repeat;
+}
+
+.ask-row__question-views:after {
+   content: "";
+   width: 28px;
+   height: 18px;
+   display: inline-block;
+   vertical-align: middle;
+   background: url("../img/watch.png") no-repeat;
+}
+
+.ask-row__status {
+   color: #000000;
+   font-family: "RobotoCondensed";
+   font-size: 14px;
+   font-weight: 400;
+}
+
+.ask-row__status-opened:before {
+   content: "";
+   display: inline-block;
+   vertical-align: top;
+   margin-right: 3px;
+   width: 25px;
+   height: 25px;
+   background: url("../img/quest.png") no-repeat;
+}
+
+.ask-row__question .ask-row__question-row:first-of-type {
+   font-size: 18px;
+}
+
+.ask-row__question .ask-row__question-row:last-of-type {
+   font-size: 16px;
+}
+
+.ask-row__status {
+
+}
+
+.ask-row:nth-of-type(2n+1) {
+   background-color: #e8ecf6;
+}
+
+.ask-row:nth-of-type(2n) {
+   background-color: #ffffff;
+}
+
 
 /*/////////////FOOTER////////*/
 
