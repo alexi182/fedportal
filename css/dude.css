@@ -751,7 +751,7 @@ form[name="ask"] .form-group.email {
     border-radius: 0;
     box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.4);
     left: 0;
-    padding: 5px;
+    padding: 0;
     text-transform: none;
     font-size: 14px;
 }
@@ -795,25 +795,25 @@ form[name="ask"] .form-group.email {
     white-space: nowrap;
 }
 
-.navbar .nav li.dropdown.open > .dropdown-toggle {
+/*.navbar .nav li.dropdown.open > .dropdown-toggle {
     background: #fff;
     border-radius: 0;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
-}
+}*/
 
 .navbar .nav .dropdown-menu li > a {
     border-radius: 2px;
     -webkit-transition: all 0.5s ease 0s;
     transition: all 0.5s ease 0s;
     color: #888;
-    padding: 8px 15px;
-    font-size: 14px;
+    padding: 19px 17px;
+    font-size: 16px;
     line-height: 18px;
 }
 
 .navbar .nav .dropdown-menu li:hover > a {
     color: #000;
-    background: #92fdb7;
+    background: #ffffff;
 }
 
 .navbar .nav .dropdown-menu .menu-sect-header {
@@ -1069,7 +1069,7 @@ form[name="ask"] .form-group.email {
 }
 
 #main.has-fixed-top {
-    padding-top: 44px;
+    /*padding-top: 34px;*/
 }
 
 #main .page-header h1 {
@@ -1158,7 +1158,7 @@ form[name="ask"] .form-group.email {
 .page-header-new {
     background: #fff;
     margin: 0 0 20px;
-    padding: 15px 10px;
+    padding: 0 0 25px;
 }
 
 .page-header-new .site-slogan {
@@ -1179,7 +1179,7 @@ form[name="ask"] .form-group.email {
 .page-header-new .slide {
     padding: 0;
     border: none;
-    display: none;
+    /*display: none;*/
 }
 
 .page-header-new .slide .text {
