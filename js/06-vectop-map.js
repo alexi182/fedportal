@@ -8,11 +8,11 @@ $('#map').vectorMap({
         stroke: '#383f47'
       }
     },
-     backgroundColor: '#f1f4f7',
-    //markers: [
-    //  {latLng: [246.90, 338.45], name: "Italy"},
-    //  {latLng: [326.02, 350.55], name: 'Bahrain'},
-    //],
+     backgroundColor: '#ffffff',
+    markers: [
+      {latLng: [246.90, 338.45], name: "Italy"},
+      {latLng: [326.02, 350.55], name: 'Bahrain'},
+    ],
 
       zoomButtons : true,
       zoomMax: 4,

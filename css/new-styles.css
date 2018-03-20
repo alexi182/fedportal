@@ -574,6 +574,34 @@ body {
    margin-right: 0;
 }
 
+.fish-text {
+   margin-top: 20px;
+   font-size: 20px;
+}
+
+.fish-text p:first-of-type{
+   font-family: "RobotoRegular";
+}
+
+.fish-text p:last-of-type{
+   margin-top: 40px;
+   font-family: "RobotoCondensed";
+}
+
+.fish-text-block {
+   margin-top: 40px;
+   display: flex;
+   justify-content: space-around;
+}
+
+.fish-text-col {
+   width: 30%;
+}
+
+.fish-pic {
+   width: 100%;
+}
+
 @media (min-width: 768px) {
 
 }
@@ -595,7 +623,6 @@ body {
    #mastfooter {
       padding: 10px 0 20px;
    }
-
 
 }
 
