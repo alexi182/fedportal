@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f5fe4cc0-564a-42d8-958c-6346625232b0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/css/new-styles.css" afterPath="$PROJECT_DIR$/css/new-styles.css" />
-      <change beforePath="$PROJECT_DIR$/js/06-vectop-map.js" afterPath="$PROJECT_DIR$/js/06-vectop-map.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -241,12 +239,20 @@
       <workItem from="1521195163447" duration="16616000" />
       <workItem from="1521437522969" duration="22536000" />
       <workItem from="1521523060634" duration="299000" />
-      <workItem from="1521536665909" duration="832000" />
+      <workItem from="1521536665909" duration="855000" />
     </task>
+    <task id="LOCAL-00001" summary="1">
+      <created>1521537519580</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1521537519580</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41328000" />
+    <option name="totallyTimeSpent" value="41351000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -296,7 +302,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
